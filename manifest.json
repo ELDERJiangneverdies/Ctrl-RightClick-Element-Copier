@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Ctrl+RightClick Element Copier",
+  "version": "1.0",
+  "description": "按住 Ctrl + 右键点击即可复制网页元素的 HTML 代码",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
