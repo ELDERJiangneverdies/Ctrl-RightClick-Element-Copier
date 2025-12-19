@@ -1,3 +1,7 @@
+Tampermonkey/Greasemonkey version: 
+
+https://greasyfork.org/zh-CN/scripts/559507-ctrl-rightclick-element-copier
+
 Introduction
 A lightweight Chrome extension. Hold the Ctrl key and right-click any element on a page to highlight it briefly and copy its outerHTML to the system clipboard. A short toast notification appears at the top of the page to indicate success or failure.
 
